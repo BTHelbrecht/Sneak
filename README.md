@@ -1,2 +1,0 @@
-# Sneak
-EyeSpy Game
