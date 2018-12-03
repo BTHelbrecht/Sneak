@@ -246,6 +246,7 @@ GameObject:
   - component: {fileID: 75480990}
   - component: {fileID: 75480992}
   - component: {fileID: 75480991}
+  - component: {fileID: 75480993}
   m_Layer: 5
   m_Name: Back
   m_TagString: Untagged
@@ -303,7 +304,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Back
 --- !u!222 &75480992
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -311,6 +312,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 75480989}
   m_CullTransparentMesh: 0
+--- !u!114 &75480993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 75480989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cc5b2b163a345769b9c7b3cf379aa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  On: 1
+  reset: 0
+  FinalText: Back
+  i: 0
+  TotalTypeTime: 4
+  TypeRate: 0.3
+  RandomCharactor: 
+  RandomCharacterChangeRate: 0.1
 --- !u!1 &225070983
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,11 +453,11 @@ MonoBehaviour:
   FinalText: '
 
 '
+  i: 0
   TotalTypeTime: -1
   TypeRate: 0
   RandomCharactor: 
   RandomCharacterChangeRate: 0.1
-  i: 0
 --- !u!114 &235472164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -454,11 +474,11 @@ MonoBehaviour:
   FinalText: 'Volume
 
 '
+  i: 0
   TotalTypeTime: -1
   TypeRate: 0.45
   RandomCharactor: 
   RandomCharacterChangeRate: 0.1
-  i: 0
 --- !u!114 &235472165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -585,11 +605,11 @@ MonoBehaviour:
   FinalText: 'std::cout >> "EYE SPY" >> endl;
 
 '
+  i: 0
   TotalTypeTime: -1
   TypeRate: 0.32
   RandomCharactor: 
   RandomCharacterChangeRate: 0.1
-  i: 0
 --- !u!114 &275499585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -683,11 +703,11 @@ MonoBehaviour:
   FinalText: '
 
 '
+  i: 0
   TotalTypeTime: -1
   TypeRate: 0
   RandomCharactor: 
   RandomCharacterChangeRate: 0.1
-  i: 0
 --- !u!114 &640293430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -704,11 +724,11 @@ MonoBehaviour:
   FinalText: 'Options
 
 '
+  i: 0
   TotalTypeTime: -1
   TypeRate: 0.45
   RandomCharactor: 
   RandomCharacterChangeRate: 0.1
-  i: 0
 --- !u!114 &640293431
 MonoBehaviour:
   m_ObjectHideFlags: 0

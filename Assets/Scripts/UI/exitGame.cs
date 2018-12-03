@@ -2,7 +2,7 @@
 EXIT GAME
 exitGame.cs
 JERARD CARNEY
-NOVEMBER.24.2018
+12.2.18
 */
 
 // Libraries
@@ -13,9 +13,10 @@ using UnityEngine;
 // Class Public >> exitGame >> Mon0Behaviour
 public class exitGame : MonoBehaviour {
 
+    // Public access to function
 	public void ExitGame()
     {
+        // Exit the application... for buttons use
         Application.Quit();
-        Debug.Log("Exit Succes.");
     }
 }
